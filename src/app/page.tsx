@@ -1,13 +1,11 @@
-export default function SkillsSection() {
+export default function ProjectsSection() {
   return (
-    <section style={{ padding: "40px", color: "white" }}>
-      <h2>Skills</h2>
+    <section style={{ padding: "50px", color: "white" }}>
+      <h2>Projects</h2>
       <ul>
-        <li>Manual Testing</li>
-        <li>API Testing (Postman)</li>
-        <li>Selenium (Basic)</li>
-        <li>Jira, Redmine</li>
-        <li>SQL (Basic)</li>
+        <li>MLM Platform Testing</li>
+        <li>E-commerce Testing</li>
+        <li>API Testing using Postman</li>
       </ul>
     </section>
   );
