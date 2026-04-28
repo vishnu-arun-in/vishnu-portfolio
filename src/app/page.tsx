@@ -1,12 +1,10 @@
-export default function ProjectsSection() {
+export default function ContactSection() {
   return (
     <section style={{ padding: "50px", color: "white" }}>
-      <h2>Projects</h2>
-      <ul>
-        <li>MLM Platform Testing</li>
-        <li>E-commerce Testing</li>
-        <li>API Testing using Postman</li>
-      </ul>
+      <h2>Contact</h2>
+      <p>Email: vishnuarun071@gmail.com</p>
+      <p>Phone: +91 9526337597</p>
+      <p>Location: Kollam, Kerala</p>
     </section>
   );
 }
