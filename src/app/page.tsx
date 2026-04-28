@@ -1,7 +1,11 @@
-export default function Header() {
+import Header from "../components/Header";
+import HeroSection from "./components/HeroSection";
+
+export default function Home() {
   return (
-    <div style={{ color: "white", fontSize: "30px" }}>
-      Header Working ✅
-    </div>
+    <main style={{ color: "white", padding: "20px" }}>
+      <Header />
+      <HeroSection />
+    </main>
   );
 }
