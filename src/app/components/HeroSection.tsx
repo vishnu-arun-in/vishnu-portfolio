@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import AppImage from '@/components/ui/AppImage';
+import AppImage from "../../components/ui/AppImage";
 
 export default function HeroSection() {
   const blobRef1 = useRef<HTMLDivElement>(null);
