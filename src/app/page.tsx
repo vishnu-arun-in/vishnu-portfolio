@@ -1,7 +1,7 @@
-export default function Header() {
+export default function Home() {
   return (
-    <div style={{ color: "white", padding: "20px" }}>
-      Header Working ✅
-    </div>
+    <main style={{ color: "white", padding: "20px" }}>
+      <h1>Portfolio Loading...</h1>
+    </main>
   );
 }
