@@ -1,9 +1,7 @@
-import Header from "../components/Header";
-
-export default function Home() {
+export default function Header() {
   return (
-    <main style={{ color: "white", padding: "20px" }}>
-      <Header />
-    </main>
+    <div style={{ color: "white", fontSize: "30px" }}>
+      Header Working ✅
+    </div>
   );
 }
