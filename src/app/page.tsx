@@ -1,10 +1,20 @@
-export default function ContactSection() {
+export default function SkillsSection() {
+  const skills = [
+    "Manual Testing",
+    "API Testing (Postman)",
+    "Selenium (Basic)",
+    "Jira, Redmine",
+    "SQL (Basic)"
+  ];
+
   return (
     <section style={{ padding: "50px", color: "white" }}>
-      <h2>Contact</h2>
-      <p>Email: vishnuarun071@gmail.com</p>
-      <p>Phone: +91 9526337597</p>
-      <p>Location: Kollam, Kerala</p>
+      <h2>Skills</h2>
+      <ul>
+        {skills.map((skill, i) => (
+          <li key={i}>{skill}</li>
+        ))}
+      </ul>
     </section>
   );
 }
