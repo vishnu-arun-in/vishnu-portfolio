@@ -1,20 +1,21 @@
-export default function SkillsSection() {
-  const skills = [
-    "Manual Testing",
-    "API Testing (Postman)",
-    "Selenium (Basic)",
-    "Jira, Redmine",
-    "SQL (Basic)"
-  ];
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import ExperienceSection from "./components/ExperienceSection";
+import SkillsSection from "./components/SkillsSection";
+import ProjectsSection from "./components/ProjectsSection";
+import CertificationsSection from "./components/CertificationsSection";
+import ContactSection from "./components/ContactSection";
 
+export default function Home() {
   return (
-    <section style={{ padding: "50px", color: "white" }}>
-      <h2>Skills</h2>
-      <ul>
-        {skills.map((skill, i) => (
-          <li key={i}>{skill}</li>
-        ))}
-      </ul>
-    </section>
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <ExperienceSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <CertificationsSection />
+      <ContactSection />
+    </main>
   );
 }
