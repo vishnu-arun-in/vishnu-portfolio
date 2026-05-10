@@ -37,7 +37,7 @@ const socialLinks = [
   {
     icon: 'CodeBracketSquareIcon',
     label: 'GitHub',
-    href: 'https://github.com',
+    href: 'https://github.com/vishnu-arun-in',
     display: 'https://github.com/vishnu-arun-in',
   },
 ];
